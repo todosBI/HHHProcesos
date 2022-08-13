@@ -1,0 +1,9 @@
+{
+	"name": "datafactorywillians",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6db6e9d3-2a22-4d4c-b082-0ab99fcfb4b6",
+		"tenantId": "08f6d813-f7d6-43e3-b50a-9ae7b8d185a5"
+	}
+}
