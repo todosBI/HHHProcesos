@@ -1,0 +1,28 @@
+{
+	"name": "williansParquet1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"sitemadearchivo": {
+				"type": "string"
+			},
+			"rutadearchivo": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "@dataset().sistemadearchivos",
+				"fileSystem": "@dataset().sistemadearchivos"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
