@@ -4,6 +4,7 @@
 		"activities": [
 			{
 				"name": "Copy data1",
+				"description": "sdd",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
