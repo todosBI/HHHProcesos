@@ -1,0 +1,9 @@
+{
+	"name": "williansmt",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b2f00eb7-ad03-40ad-b977-4dc2388cc25c",
+		"tenantId": "08f6d813-f7d6-43e3-b50a-9ae7b8d185a5"
+	}
+}
