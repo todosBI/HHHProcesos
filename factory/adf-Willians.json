@@ -1,0 +1,9 @@
+{
+	"name": "adf-Willians",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3ca852d1-d87a-4887-bc33-ea39b1ef2aed",
+		"tenantId": "08f6d813-f7d6-43e3-b50a-9ae7b8d185a5"
+	}
+}
