@@ -1,0 +1,93 @@
+{
+	"name": "Parquet1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "ProductID",
+				"type": "INT32"
+			},
+			{
+				"name": "Name",
+				"type": "UTF8"
+			},
+			{
+				"name": "ProductNumber",
+				"type": "UTF8"
+			},
+			{
+				"name": "Color",
+				"type": "UTF8"
+			},
+			{
+				"name": "StandardCost",
+				"type": "DECIMAL",
+				"precision": 19,
+				"scale": 4
+			},
+			{
+				"name": "ListPrice",
+				"type": "DECIMAL",
+				"precision": 19,
+				"scale": 4
+			},
+			{
+				"name": "Size",
+				"type": "UTF8"
+			},
+			{
+				"name": "Weight",
+				"type": "DECIMAL",
+				"precision": 8,
+				"scale": 2
+			},
+			{
+				"name": "ProductCategoryID",
+				"type": "INT32"
+			},
+			{
+				"name": "ProductModelID",
+				"type": "INT32"
+			},
+			{
+				"name": "SellStartDate",
+				"type": "INT96"
+			},
+			{
+				"name": "SellEndDate",
+				"type": "INT96"
+			},
+			{
+				"name": "DiscontinuedDate",
+				"type": "INT96"
+			},
+			{
+				"name": "ThumbNailPhoto",
+				"type": "BINARY"
+			},
+			{
+				"name": "ThumbnailPhotoFileName",
+				"type": "UTF8"
+			},
+			{
+				"name": "rowguid",
+				"type": "UTF8"
+			},
+			{
+				"name": "ModifiedDate",
+				"type": "INT96"
+			}
+		]
+	}
+}
