@@ -6,10 +6,10 @@
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
-			"sitemadearchivo": {
+			"sistemadearchivos": {
 				"type": "string"
 			},
-			"rutadearchivo": {
+			"rutadearchivos": {
 				"type": "string"
 			}
 		},
@@ -18,8 +18,14 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"folderPath": "@dataset().sistemadearchivos",
-				"fileSystem": "@dataset().sistemadearchivos"
+				"folderPath": {
+					"value": "@dataset().rutadearchivos",
+					"type": "Expression"
+				},
+				"fileSystem": {
+					"value": "@dataset().sistemadearchivos",
+					"type": "Expression"
+				}
 			},
 			"compressionCodec": "snappy"
 		},
